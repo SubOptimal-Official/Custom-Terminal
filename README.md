@@ -44,33 +44,33 @@
 
 ## 🧩 Installation & Usage
 
-### 1️⃣ Clone or Download
+### 🪄 Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/bashed.git
+git clone https://github.com/SubOptimal-Official/bashed.git
 cd bashed
-
-
-2️⃣ Make Executable
+⚙️ Step 2 — Make It Executable
+bash
+Copy code
 chmod +x bashed.sh
-
-3️⃣ Run Bashed
+🚀 Step 3 — Run Bashed
+bash
+Copy code
 ./bashed.sh
-
-4️⃣ Choose Your Theme
-
+🎨 Step 4 — Choose Your Theme
 You’ll be prompted to pick from 6 different color schemes.
-Once selected, your new shell launches instantly! 🚀
+Once selected, your new themed shell launches instantly! ✨
 
-🧮 Optional (Fastfetch Integration)
-
-If you have fastfetch
- installed, it automatically runs at startup, showing your system info beautifully.
+🧮 Optional — Fastfetch Integration
+If you have fastfetch installed, it will automatically display your system info at startup.
 
 To install:
 
+bash
+Copy code
 sudo apt install fastfetch -y
-
 🎨 Demo
+bash
+Copy code
 Choose a theme:
 [1] Cyan 🌊
 [2] Green 🌿
@@ -79,33 +79,27 @@ Choose a theme:
 [5] Cyberpunk 🤖
 [6] Rainbow 🌈
 Enter theme number: 5
-
-
 ✨ Boom! You’re now inside your custom-themed shell with all aliases ready.
 
 🧰 How It Works
+select_theme() → Prompts you to select a theme and sets your PS1 prompt
 
-select_theme() → Prompts you to select a theme and exports it as your PS1.
+Aliases → Loaded dynamically into a new bash instance
 
-Aliases → Loaded dynamically into a new bash instance.
-
-exec bash --rcfile <(...) → Launches a fresh shell with your chosen setup.
+exec bash --rcfile <(...) → Launches a fresh shell with your chosen setup
 
 Everything happens without touching your .bashrc, keeping your system clean and safe.
 
 💾 Uninstall
-
-No system changes are made!
-Just close the terminal or delete the script.
+No system changes are made.
+Just close the terminal or delete the script — that’s it!
 
 🧑‍💻 Author
-
 SubOptimal
-💻 Linux enthusiast | 🧠 Automation lover | 🌀 Bash Customizer
+💻 Linux Enthusiast | 🧠 Automation Lover | 🌀 Bash Customizer
 
 🔗 GitHub: SubOptimal-Official
 
 ⭐ Support
-
 If you like this project, give it a ⭐ on GitHub!
-Every star helps the terminal glow a bit brighter ✨
+Every star helps the terminal glow a little brighter ✨
